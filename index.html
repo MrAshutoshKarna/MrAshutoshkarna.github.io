@@ -1,12 +1,784 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.kodesolution.com/2023/hoexr-html/index-1-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 25 Jul 2025 17:25:23 GMT -->
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Welcome</title>
+  <meta charset="utf-8">
+  <title>Hotel Aroma</title>
+  <!-- Stylesheets -->
+  <link href="pages/css/bootstrap.min.css" rel="stylesheet">
+  <link href="pages/css/flatpickr.min.css" rel="stylesheet">
+  <link href="pages/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="pages/css/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="pages/css/slick.css">
+
+  <link rel="shortcut icon" href="pages/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="pages/images/favicon.png" type="image/x-icon">
+  <!-- Responsive -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
 </head>
 
-<BODY>
-	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=pages/home.html">
+<body>
+  <div class="page-wrapper">
+
+    <!-- Preloader -->
+    <div class="preloader"></div>
+    <!-- Contact Top Bar -->
+    <div class="top-bar">
+      <div class="auto-container d-flex justify-content-between">
+        <span class="contact-item">
+          <i class="lnr-icon-phone-handset"></i>
+          <a href="tel:+918859597788">+91‑88595 97788</a>,
+          <a href="tel:+919773728988">+91‑97737 28988</a>
+        </span>
+        <span class="contact-item">
+          <i class="lnr-icon-map-marker"></i>
+          409-410 Sultanpur Mandi Road, Opp. DLF Farms, Delhi 110074
+        </span>
+      </div>
+    </div>
+    <!-- Main Header-->
+    <header class="main-header header-style-one">
+      <div class="auto-container">
+
+        <!-- Main box -->
+        <div class="main-box">
+          <div class="logo-box">
+            <div class="logo"><a href=""><img src="pages/images/logo-v4-black.png" alt="" title="Tronis"></a>
+            </div>
+          </div>
+
+          <!--Nav Box-->
+          <div class="nav-outer">
+            <nav class="nav main-menu">
+              <ul class="navigation onepage-nav">
+                <li class="current"><a href="#home">Home</a></li>
+                <li><a href="pages/page-about.html">About</a></li>
+                <li><a href="pages/service-details.html">Services</a></li>
+                <li><a href="pages/room-details.html">Room</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <!-- Main Menu End-->
+          </div>
+
+          <div class="outer-box">
+            <a href="pages/contact.html" class="header-btn">Book Now</a>
+            <!-- Mobile Nav toggler -->
+          </div>
+        </div>
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+          <div class="menu-backdrop"></div>
+          <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+          <nav class="menu-box">
+            <div class="upper-box">
+              <div class="nav-logo"><a href="#home"><img src="pages/images/logo-2.png" alt=""></a></div>
+              <div class="close-btn"><i class="icon fa fa-times"></i></div>
+            </div>
+            <ul class="navigation onepage-nav clearfix">
+              <!--Keep This Empty / Menu will come through Javascript-->
+            </ul>
+            <ul class="contact-list-one">
+              <li>
+                <!-- Contact Info Box -->
+                <div class="contact-info-box">
+                  <i class="icon lnr-icon-phone-handset"></i>
+                  <span class="title">Call Now</span>
+                  <a href="tel:+918859597788">+92 88595 97788</a>
+                </div>
+              </li>
+              <li>
+                <!-- Contact Info Box -->
+                <div class="contact-info-box">
+                  <span class="icon lnr-icon-envelope1"></span>
+                  <span class="title">Send Email</span>
+                </div>
+              </li>
+
+            </ul>
+            <ul class="social-links">
+              <li><a href="#"><i class="fa fa-x"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </nav>
+        </div><!-- End Mobile Menu -->
+
+        <!-- Header Search -->
+        <div class="search-popup">
+          <span class="search-back-drop"></span>
+          <button class="close-search"><span class="fa fa-times"></span></button>
+          <div class="search-inner">
+            <form method="post" action="#">
+              <div class="form-group">
+                <input type="search" name="search-field" value="" placeholder="Search..." required="">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- End Header Search -->
+
+        <!-- Sticky Header  -->
+        <div class="sticky-header">
+          <div class="auto-container">
+            <div class="inner-container">
+              <!--Logo-->
+              <div class="logo">
+                <a href="#"><img src="pages/images/logo-v4-black.png" alt=""></a>
+              </div>
+              <!--Right Col-->
+              <div class="nav-outer">
+                <!-- Main Menu -->
+                <nav class="main-menu">
+                  <div class="navbar-collapse show collapse clearfix">
+                    <ul class="navigation onepage-nav clearfix">
+                      <!--Keep This Empty / Menu will come through Javascript-->
+                    </ul>
+                  </div>
+                </nav><!-- Main Menu End-->
+                <!--Mobile Navigation Toggler-->
+                <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Sticky Menu -->
+      </div>
+    </header>
+    <!--End Main Header -->
+
+    <!-- banner section -->
+    <section id="home" class="banner-section">
+      <div class="banner-slider">
+        <div class="banner-slide">
+          <figure class="image"><img src="pages/images/banner/banner-1.jpg" alt=""></figure>
+          <div class="content-box">
+            <span class="sub-title" data-animation-in="fadeInUp" data-delay-in="0.1">unique place and luxury
+              hotel</span>
+            <h1 data-animation-in="fadeInUp" data-delay-in="0.3">HOTEL AROMA <br> </h1>
+            <!-- <span data-animation-in="fadeInUp" data-delay-in="0.3">Your Escape Awaits.</span> -->
+            <a href="pages/room-details.html" class="btn" data-animation-in="fadeInUp" data-delay-in="0.5">rooms &
+              suites</a>
+          </div>
+        </div>
+        <div class="banner-slide">
+          <figure class="image wow fadeInUp"><img src="pages/images/banner/banner-1.jpg" alt=""></figure>
+          <div class="content-box">
+            <span class="sub-title" data-animation-in="fadeInUp" data-delay-in="0.1">unique place and luxury
+              hotel</span>
+            <h1 data-animation-in="fadeInUp" data-delay-in="0.3">HOTEL AROMA </h1>
+            <a href="pages/room-details.html" class="btn" data-animation-in="fadeInUp" data-delay-in="0.5">rooms &
+              suites</a>
+          </div>
+        </div>
+        <div class="banner-slide">
+          <figure class="image wow fadeInUp"><img src="pages/images/banner/banner-1.jpg" alt=""></figure>
+          <div class="content-box">
+            <span class="sub-title" data-animation-in="fadeInUp" data-delay-in="0.1">unique place and luxury
+              hotel</span>
+            <h1 data-animation-in="fadeInUp" data-delay-in="0.3">HOTEL AROMA </h1>
+            <a href="pages/room-details.html" class="btn" data-animation-in="fadeInUp" data-delay-in="0.5">rooms &
+              suites</a>
+          </div>
+        </div>
+      </div>
+      <div class="checkout-form-section wow slideInUp">
+        <div class="auto-container">
+          <div class="checkout-form">
+            <div class="checkout-field">
+              <h6>Check in</h6>
+              <div class="chk-field">
+                <input class="date-pick" type="text" placeholder="20 June, 2023" />
+                <i class="fa fa-calendar"></i>
+              </div>
+            </div>
+            <div class="checkout-field">
+              <h6>Check out</h6>
+              <div class="chk-field">
+                <input class="date-pick" type="text" placeholder="20 June, 2023" />
+                <i class="fa fa-calendar"></i>
+              </div>
+            </div>
+            <div class="checkout-field br-0">
+              <h6>Room</h6>
+              <div class="chk-field">
+                <i class="fa fa-angle-down"></i>
+                <select>
+                  <option>Junior Suite </option>
+                  <option>Family Room </option>
+                  <option>Double Room </option>
+                  <option>Deluxe Room </option>
+                </select>
+              </div>
+            </div>
+            <a href="#" class="theme-btn btn-style-one"><span class="btn-title">check now</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End banner section -->
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="auto-container">
+        <div class="row">
+          <!-- Content Column -->
+          <div class="content-column col-xl-6 col-lg-6 order-lg-2 wow fadeInRight" data-wow-delay="600ms">
+            <div class="inner-column">
+              <div class="sec-title">
+                <span class="sub-title">Hotel Aroma</span>
+                <h2>Most Safe & Rated <br>Hotel in Delhi.</h2>
+                <div class="text">Between distant journeys and nearby escapes,<br>
+                  rests a haven of warmth and comfort.<br>
+                  Where every guest is greeted with a smile,<br>
+                  and every moment feels like it’s yours alone.</div>
+              </div>
+              <div class="outer-box">
+                <div class="info-block">
+                  <div class="inner">
+                    <div class="icon-box"><i class="flaticon-light"></i></div>
+                    <h4 class="title">The Best <br>Lighting</h4>
+                  </div>
+                </div>
+                <div class="info-block">
+                  <div class="inner">
+                    <div class="icon-box"><i class="fas fa-bed"></i></div>
+                    <h4 class="title">The Best <br>Rooms</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-box">
+                <a href="pages/page-about.html" class="theme-btn btn-style-one"><span class="btn-title">Discover
+                    More</span></a>
+                <div class="contact-info">
+                  <div class="icon-box"><i class="flaticon-customer-service"></i></div>
+                  <span>Booking Now</span>
+                  <h4 class="title">88595 97788 <br> 97737 28988</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image Column -->
+          <div class="image-column col-xl-6 col-lg-6">
+            <div class="inner-column wow fadeInLeft">
+              <figure class="image-1 overlay-anim wow fadeInUp"><img src="pages/images/resource/about1-1.jpg" alt="">
+              </figure>
+              <figure class="image-2 overlay-anim wow fadeInLeft"><img src="pages/images/resource/about1-2.jpg" alt="">
+              </figure>
+              <figure class="image-4 overlay-anim wow fadeInLeft"><img src="pages/images/resource/icon-1.png" alt="">
+              </figure>
+              <figure class="image-5 bounce-y overlay-anim wow fadeInLeft"><img src="pages/images/resource/icon-6.png"
+                  alt="">
+              </figure>
+              <!-- <div class="btn-box">
+                <a href="#" class="play-now-two" data-fancybox="gallery" data-caption="">
+                  <i class="icon fa fa-play" aria-hidden="true"></i>
+                  <span class="ripple"></span>
+                </a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Emd About Section -->
+
+    <!-- rooms-section -->
+    <section id="room" class="rooms-section pb-100">
+      <div class="auto-container">
+        <div class="sec-title text-center wow fadeInUp">
+          <span class="sub-title">HOTEL AROMA</span>
+          <h2>Luxury Rooms & Suites</h2>
+        </div>
+        <div class="row">
+          <!-- room-block -->
+          <div class="room-block col-lg-6 col-md-6 col-sm-12">
+            <div class="inner-box wow fadeIn">
+              <div class="image-box">
+                <figure class="image-2 overlay-anim"><img src="pages/images/resource/room-1.jpg" alt=""></figure>
+              </div>
+              <div class="content-box">
+                <h6 class="title"><a href="pages/room-details.html">Junior Suite</a></h6>
+                <span class="price">₹--- / NIGHT</span>
+              </div>
+              <div class="box-caption">
+                <a href="pages/room-details.html" class="book-btn">book now</a>
+                <ul class="bx-links">
+                  <li><a href="pages/room-details.html"><i class="fa fa-wifi"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-bed"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-bath"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-shower"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- room-block -->
+          <div class="room-block col-lg-6 col-md-6 col-sm-12">
+            <div class="inner-box wow fadeIn" data-wow-delay="200ms">
+              <div class="image-box">
+                <figure class="image-2 overlay-anim"><img src="pages/images/resource/room-2.jpg" alt=""></figure>
+              </div>
+              <div class="content-box">
+                <h6 class="title"><a href="pages/room-details.html">Family Room</a></h6>
+                <span class="price">₹---/ NIGHT</span>
+              </div>
+              <div class="box-caption">
+                <a href="pages/room-details.html" class="book-btn">book now</a>
+                <ul class="bx-links">
+                  <li><a href="pages/room-details.html"><i class="fa fa-wifi"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-bed"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-bath"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-shower"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- room-block -->
+          <div class="room-block col-lg-3 col-md-6 col-sm-12">
+            <div class="inner-box wow fadeIn" data-wow-delay="300ms">
+              <div class="image-box">
+                <figure class="image-2 overlay-anim"><img src="pages/images/resource/room-3.jpg" alt=""></figure>
+              </div>
+              <div class="content-box">
+                <h6 class="title"><a href="pages/room-details.html">Double Room</a></h6>
+                <span class="price">₹---/ NIGHT</span>
+              </div>
+              <div class="box-caption">
+                <a href="pages/room-details.html" class="book-btn">book now</a>
+                <ul class="bx-links">
+                  <li><a href="pages/room-details.html"><i class="fa fa-wifi"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-bed"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-bath"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-shower"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- room-block -->
+          <div class="room-block col-lg-6 col-md-6 col-sm-12">
+            <div class="inner-box large-style wow fadeIn" data-wow-delay="400ms">
+              <div class="image-box">
+                <figure class="image-2 overlay-anim"><img src="pages/images/resource/room-4.jpg" alt=""></figure>
+              </div>
+              <div class="content-box">
+                <h6 class="title"><a href="pages/room-details.html">Double Room</a></h6>
+                <span class="price">₹---/ NIGHT</span>
+              </div>
+              <div class="box-caption">
+                <a href="room-details.html" class="book-btn">book now</a>
+                <ul class="bx-links">
+                  <li><a href="pages/room-details.html"><i class="fa fa-wifi"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-bed"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-bath"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-shower"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- room-block -->
+          <div class="room-block col-lg-3 col-md-6 col-sm-12">
+            <div class="inner-box wow fadeIn" data-wow-delay="500ms">
+              <div class="image-box">
+                <figure class="image-2 overlay-anim"><img src="pages/images/resource/room-5.jpg" alt=""></figure>
+              </div>
+              <div class="content-box">
+                <h6 class="title"><a href="pages/room-details.html">Deluxe Room</a></h6>
+                <span class="price">₹---/ NIGHT</span>
+              </div>
+              <div class="box-caption">
+                <a href="room-details.html" class="book-btn">book now</a>
+                <ul class="bx-links">
+                  <li><a href="pages/room-details.html"><i class="fa fa-wifi"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-bed"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-bath"></i></a></li>
+                  <li><a href="pages/room-details.html"><i class="fa fa-shower"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End rooms-section -->
+
+    <!-- service-section -->
+    <section id="services" class="service-section">
+      <div class="auto-container">
+        <div class="sec-title text-center wow slideInUp">
+          <span class="sub-title">AROMA SERVICES</span>
+          <h2>Hotel Facilities</h2>
+        </div>
+        <div class="row">
+          <!-- service-block -->
+          <div class="service-block col-lg-4 col-sm-6">
+            <div class="inner-box wow fadeIn" data-wow-delay="100ms">
+              <div class="icon-box wow fadeInUp"><i class="flaticon-bed-2"></i></div>
+              <div class="content-box">
+                <h4 class="title"><a href="pages/service-details.html">Room Service</a></h4>
+                <div class="text">Orci varius natoque penatibus magnis ders disney parturient ridiculus</div>
+              </div>
+            </div>
+          </div>
+          <!-- service-block -->
+          <div class="service-block col-lg-4 col-sm-6">
+            <div class="inner-box wow fadeIn" data-wow-delay="200ms">
+              <div class="icon-box wow fadeInUp"><i class="flaticon-travel"></i></div>
+              <div class="content-box">
+                <h4 class="title"><a href="pages/service-details.html">Pick Up & Drop</a></h4>
+                <div class="text">Orci varius natoque penatibus magnis ders disney parturient ridiculus</div>
+              </div>
+            </div>
+          </div>
+          <!-- service-block -->
+          <div class="service-block col-lg-4 col-sm-6">
+            <div class="inner-box wow fadeIn" data-wow-delay="300ms">
+              <div class="icon-box wow fadeInUp"><i class="flaticon-wifi"></i></div>
+              <div class="content-box">
+                <h4 class="title"><a href="pages/service-details.html">Fibre Internet</a></h4>
+                <div class="text">Orci varius natoque penatibus magnis ders disney parturient ridiculus</div>
+              </div>
+            </div>
+          </div>
+          <!-- service-block -->
+          <div class="service-block col-lg-4 col-sm-6">
+            <div class="inner-box wow fadeIn" data-wow-delay="400ms">
+              <div class="icon-box wow fadeInUp"><i class="flaticon-breakfast"></i></div>
+              <div class="content-box">
+                <h4 class="title"><a href="pages/service-details.html">Breakfast</a></h4>
+                <div class="text">Orci varius natoque penatibus magnis ders disney parturient ridiculus</div>
+              </div>
+            </div>
+          </div>
+          <!-- service-block -->
+          <div class="service-block col-lg-4 col-sm-6 ">
+            <div class="inner-box wow fadeIn" data-wow-delay="500ms">
+              <div class="icon-box wow fadeInUp mt-3"><i class="fa-solid fa-tty"></i></div>
+              <div class="content-box">
+                <h4 class="title"><a href="page-service-details.html">Connectivity</a></h4>
+                <div class="text">Orci varius natoque penatibus magnis ders disney parturient ridiculus</div>
+              </div>
+            </div>
+          </div>
+          <!-- service-block -->
+          <div class="service-block col-lg-4 col-sm-6">
+            <div class="inner-box wow fadeIn" data-wow-delay="600ms">
+              <div class="icon-box wow fadeInUp"><i class="flaticon-car"></i></div>
+              <div class="content-box">
+                <h4 class="title"><a href="pages/service-details.html">Parking Space</a></h4>
+                <div class="text">Orci varius natoque penatibus magnis ders disney parturient ridiculus</div>
+              </div>
+            </div>
+          </div>
+          <div class="inner-column">
+            <a href="pages/room-details.html" class="theme-btn btn-style-one read-more">Discover More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End service-section -->
+
+    <!-- video-section -->
+    <section class="video-section d-none">
+      <div class="bg bg-image" style="background-image: url(pages/images/background/1.jpg);"></div>
+      <div class="auto-container">
+        <div class="row">
+          <div class="content-column col-lg-9 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <div class="sec-title-two light wow slideInUp">
+                <span class="sub-title">Promotional Video</span>
+                <h2> Book HOTEL Rooms, <br>Deals & Book Flights Online.</h2>
+              </div>
+            </div>
+          </div>
+          <div class="btn-column col-lg-3 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-now-two" data-fancybox="gallery"
+                data-caption="">
+                <img src="pages/images/icons/play.png" alt="" />
+                <span class="ripple"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End video section -->
+
+    <!-- feature-section -->
+    <section class="feature-section">
+      <div class="auto-container">
+        <div class="row feature-row g-0 wow slideInUp" data-wow-delay="100ms">
+          <div class="image-column col-lg-4 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <div class="image-box">
+                <figure class="image overlay-anim"><img src="pages/images/resource/feature-1.jpg" alt=""></figure>
+              </div>
+            </div>
+          </div>
+          <div class="content-column col-lg-8 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <div class="content-box">
+                <div class="sec-title">
+                  <span class="sub-title">MODERN</span>
+                  <h3>Meeting/ Conference/ Banquet Facility</h3>
+                  <div class="text">Versatile, fully‑equipped event space with professional event support, modern AV
+                    systems, high-speed Wi‑Fi, and flexible seating for business meetings, conferences, and
+                    celebrations.</div>
+                </div>
+                <a href="pages/room-details.html" class="theme-btn btn-style-one read-more">Discover More</a>
+                <figure class="image-2"><img src="images/resource/icon.png" alt=""></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row feature-row g-0 wow slideInUp" data-wow-delay="200ms">
+          <div class="content-column col-lg-8 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <div class="content-box">
+                <div class="sec-title">
+                  <span class="sub-title">DISCOVER</span>
+                  <h2>Reception Area – Hotel Aroma</h2>
+                  <div class="text">Welcome begins here: our reception area is designed to be spacious, well-lit, and
+                    inviting—efficiently guiding you from arrival to check-in with ease. It serves as the vibrant first
+                    touchpoint, setting the tone for a seamless and memorable visit. </div>
+                </div>
+                <a href="pages/room-details.html" class="theme-btn btn-style-one read-more">Discover More</a>
+                <figure class="image-2"><img src="pages/images/resource/icon-2.png" alt=""></figure>
+              </div>
+            </div>
+          </div>
+          <div class="image-column col-lg-4 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <div class="image-box">
+                <figure class="image overlay-anim"><img src="pages/images/resource/feature-2.jpg" alt=""></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row feature-row g-0 wow slideInUp d-none" data-wow-delay="300ms">
+          <div class="image-column col-lg-4 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <div class="image-box">
+                <figure class="image overlay-anim"><img src="pages/images/resource/feature-3.jpg" alt=""></figure>
+              </div>
+            </div>
+          </div>
+          <div class="content-column col-lg-8 col-md-12 col-sm-12 d-none">
+            <div class="inner-column">
+              <div class="content-box">
+                <div class="sec-title">
+                  <span class="sub-title">EXPERIENCES</span>
+                  <h2>Spa Center</h2>
+                  <div class="text">Restaurant inilla duiman at elit finibus viverra nec a
+                    lacus themo the <br>nesudea seneoice misuscipit non sagie the fermen
+                    ziverra tristiue duru <br>the ivite dianne onen nivami acsestion augue artine.</div>
+                </div>
+                <a href="pages/room-details.html" class="theme-btn btn-style-one read-more">Discover More</a>
+                <figure class="image-2"><img src="pages/images/resource/icon-3.png" alt=""></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End feature section -->
+
+
+    <!-- BOOKING SECTION -->
+    <section id="contact" class="booking-section">
+      <div class="auto-container">
+        <div class="row">
+          <div class="col-lg-6 booking-form-column wow fadeInUp">
+            <div class="inner-column">
+              <div class="sec-title">
+                <span class="sub-title">ROOMS & SUITES</span>
+                <h2>Hotel Booking </h2>
+              </div>
+              <form class="bk-form">
+                <div class="frm-field">
+                  <input type="text" name="check-in" class="date-pick" placeholder="Check in" />
+                  <img src="pages/images/icons/mail.png" alt="" />
+                </div>
+                <div class="frm-field">
+                  <input type="text" name="check-in" class="date-pick" placeholder="Check out" />
+                  <img src="pages/images/icons/mail.png" alt="" />
+                </div>
+                <div class="frm-field">
+                  <select>
+                    <option>Adult</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+
+
+                  </select>
+                  <i class="fa fa-angle-down"></i>
+                </div>
+                <div class="frm-field">
+                  <select>
+                    <option>Child</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                  <i class="fa fa-angle-down"></i>
+                </div>
+                <div class="form-submit">
+                  <button type="submit">Check Availability</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-6 booking-content-column wow fadeInRight" data-wow-delay="200ms">
+            <div class="inner-column">
+              <div class="sec-title white">
+                <span class="sub-title">HOTEL AROMA</span>
+                <h2>Check Availability </h2>
+              </div>
+              <p>Each of our guest rooms feature a private bath, wi-fi, cable television and include full breakfast.</p>
+              <p>Step into a space where comfort wraps around you,
+                and every corner whispers quiet luxury.
+                Here, you’re not just a guest — you’re home.</p>
+              <div class="contact-info">
+                <div class="icon-box"><i class="flaticon-customer-service"></i></div>
+                <span>Booking Now</span>
+                <h4 class="title">88595 97788 | 97737 28988</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BOOKING SECTION END -->
+
+
+
+    <!-- Main Footer -->
+    <footer class="main-footer footer-style-one">
+      <!-- Widgets Section -->
+      <div class="widgets-section">
+        <div class="auto-container">
+          <div class="row">
+            <!-- Footer Column -->
+            <div class="footer-column col-lg-4 col-sm-6">
+              <div class="footer-widget about-widget wow fadeInLeft">
+                <div class="widget-content">
+                  <div class="logo"><a href="#"> <img src="pages/images/logo-2.png" alt=""></a></div>
+                  <div class="text">Welcome to one of the finest boutique hotels in Delhi.
+                    Where comfort meets elegance, and every stay feels exceptional.
+                    Experience thoughtful service in the heart of the city.
+
+                  </div>
+                  <ul class="social-icon-two">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-x"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Footer Column -->
+            <div class="footer-column col-lg-2 col-sm-6 mb-0">
+              <div class="footer-widget links-widget wow fadeInLeft" data-wow-delay="200ms">
+                <h4 class="widget-title">Services Links</h4>
+                <div class="widget-content">
+                  <ul class="user-links">
+                    <li><a href="#"><i class="fa-solid fa-crosshairs"></i>Home</a></li>
+                    <li><a href="pages/rooms.html"><i class="fa-solid fa-crosshairs"></i>Rooms & Suites</a></li>
+                    <li><a href="pages/page-about.html"><i class="fa-solid fa-crosshairs"></i>About Hotel</a></li>
+                    <li><a href="pages/contact.html"><i class="fa-solid fa-crosshairs"></i>Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Footer Column -->
+            <div class="footer-column col-lg-3 col-sm-6">
+              <div class="footer-widget info-widget wow fadeInLeft" data-wow-delay="300ms">
+                <h4 class="widget-title">Information</h4>
+                <div class="widget-content">
+                  <!-- Recent Post -->
+                  <article class="recent-post">
+                    <div class="inner">
+                      <div class="post-info"><i class="fas fa-phone"></i>+91 88595 97788</div>
+                      <div class="post-info">+91-97737-28988</div>
+                      <div class="post-info"><i class="fa fa-envelope"></i> <a href="#" class="__cf_email__"
+                          data-cfemail="70191e161f301508111d001c155e131f1d"
+                          style="color:inherit !important">thearomahotel@gmail.com</a></div>
+                      <div class="post-info"><i class="fas fa-location"></i>
+                        <p class="mb-0" style="color:inherit !important">
+                          409-410 Sultanpur Mandi Road,<br />
+                          Opp. DLF Farms,<br />
+                          Delhi 110074
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <!-- footer column -->
+            <div class="footer-column col-lg-3 col-sm-6">
+              <div class="footer-widget news-widget wow fadeInLeft" data-wow-delay="400ms">
+                <h4 class="widget-title">Newsletter</h4>
+                <div class="text">Lorem ipsum dolor sit amet consectetur Augue id fermentum</div>
+                <div class="subscribe-form-three">
+                  <form method="post" action="#">
+                    <div class="form-group">
+                      <input type="email" name="email" class="email" value="" placeholder="Email Address" required="">
+                      <button type="button" class="theme-btn btn-style-one"><span class="btn-title"><i
+                            class="fa fa-paper-plane"></i></span></button>
+                    </div>
+                  </form>
+                </div>
+                <div class="text"><i class="fa-regular fa-circle-check"></i>I agree to all terms and policies</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  Footer Bottom -->
+      <div class="footer-bottom wow slideInUp">
+        <div class="auto-container">
+          <div class="inner-container">
+            <div class="copyright-text">© Copyrights reserved by uniquec creators.</div>
+            <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End Main Footer -->
+
+  </div><!-- End Page Wrapper -->
+  <script src="pages/js/jquery.js"></script>
+  <script src="pages/js/popper.min.js"></script>
+  <script src="pages/js/bootstrap.min.js"></script>
+  <script src="pages/js/slick.min.js"></script>
+  <script src="pages/js/slick-animation.min.js"></script>
+  <script src="pages/js/jquery.fancybox.js"></script>
+  <script src="pages/js/wow.js"></script>
+  <script src="pages/js/appear.js"></script>
+  <script src="pages/js/flatpickr.js"></script>
+  <script src="pages/js/swiper.min.js"></script>
+  <script src="pages/js/script.js"></script>
 </body>
+
+<!-- Mirrored from html.kodesolution.com/2023/hoexr-html/index-1-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 25 Jul 2025 17:25:40 GMT -->
 
 </html>
