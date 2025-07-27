@@ -1,0 +1,37 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 25 Jul 2025 22:55:22 at https://html.kodesolution.com/2023/hoexr-html/index-1-single.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://html.kodesolution.com/2023/hoexr-html/index-1-single.html -O1 "D:\Delhi\Hotel Single Page" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/pattern-1.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/footer-bg-1.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/footer-bg-2.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/footer-bg-3.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/footer-bg-4.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/footer-bg-5.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/footer-bg-6.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/footer-bg-7.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/footer-bg-8.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/footer-bg-9.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/footer-bg-10.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/footer-bg-11.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/pattern-7.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/pattern-3.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/cat-1-bg.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/cat-2-bg.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/cat-3-bg.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/cat-4-bg.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/pattern-8.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:57:15	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/icons/shape-7.png (from https://html.kodesolution.com/2023/hoexr-html/css/style.css)
+22:58:47	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/resource/service-details.jpg (from https://html.kodesolution.com/2023/hoexr-html/page-service-details.html)
+22:58:47	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/resource/service-d1.jpg (from https://html.kodesolution.com/2023/hoexr-html/page-service-details.html)
+22:58:47	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/images/resource/service-d2.jpg (from https://html.kodesolution.com/2023/hoexr-html/page-service-details.html)
+22:58:47	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/js/select2.min.js (from https://html.kodesolution.com/2023/hoexr-html/page-service-details.html)
+22:58:47	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/css/owl.video.play.png (from https://html.kodesolution.com/2023/hoexr-html/css/owl.css)
+22:58:49	Error: 	"Not Found" (404) at link https://html.kodesolution.com/2023/hoexr-html/shop-details.html (from https://html.kodesolution.com/2023/hoexr-html/shop-products-sidebar.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 27 seconds : 280 links scanned, 253 files written (23257287 bytes overall) [17326305 bytes received at 83701 bytes/sec], 9030214 bytes transferred using HTTP compression in 110 files, ratio 31%, 70.0 requests per connection
+(26 errors, 0 warnings, 0 messages)
