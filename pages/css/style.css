@@ -112,6 +112,23 @@ License: copyright commercial
   --container-pb: 120px;
 }
 
+h1.star-underline {
+  position: relative;
+  /* display: inline-block; */
+  padding-bottom: 0.8em;
+}
+
+h1.star-underline::after {
+  content: "★★★★";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  color: #DAA520;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+}
+
 /*
  * typography.scss
  * -----------------------------------------------
@@ -8355,7 +8372,7 @@ Section Title
 ***/
 .rooms-section {
   position: relative;
-  padding: 120px 0;
+  padding: 50px 0;
   background: #f8f5f0;
 }
 
