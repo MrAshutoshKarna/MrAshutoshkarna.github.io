@@ -114,19 +114,37 @@ License: copyright commercial
 
 h1.star-underline {
   position: relative;
-  /* display: inline-block; */
   padding-bottom: 0.8em;
+  padding: 0;
 }
 
 h1.star-underline::after {
-  content: "★★★★";
+  /* content: "★★★★"; */
   position: absolute;
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
   color: #DAA520;
   font-size: 0.8em;
+  padding: 0.2em 0.5em;
   letter-spacing: 0.2em;
+}
+
+.star-line {
+  color: #DAA520;
+}
+
+@media (max-width: 768px) {
+  h1.star-underline {
+    padding-bottom: 2em;
+    font-size: 1.2em;
+    /* optional: adjust for better scaling */
+  }
+
+  h1.star-underline::after {
+    font-size: 0.7em;
+    /* optional: smaller stars on mobile */
+  }
 }
 
 /*
